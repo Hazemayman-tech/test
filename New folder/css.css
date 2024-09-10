@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    margin: 20px;
+    background-color: #f4f4f9; /* لون خلفية لطيف */
+}
+
+header img {
+    width: 100%; /* جعل الصورة تمتد على عرض الصفحة */
+    height: 110px; /* جعل الارتفاع صغير */
+    object-fit: cover; /* التأكد من أن الصورة لا تنضغط وتظل متناسبة */
+    border-radius: 10px; /* زوايا دائرية للصورة */
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل لطيف */
+    position: relative;
+}
+
+.container img {
+    position: absolute;
+    top: -60px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    object-fit: cover;
+}
+
+form {
+    margin-top: 80px;
+}
+
+form h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e9f5f7; /* خلفية خفيفة */
+    margin-bottom: 20px;
+}
+
+button.btn, button.btn-back {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button.btn-back {
+    background-color: #007bff; /* لون مختلف لزر الرجوع */
+}
+
+button.btn-back:hover {
+    background-color: #0056b3; /* تأثير تمرير */
+}
+
+button.btn:hover {
+    background-color: #218838; /* تأثير تمرير لزر التعديل */
+}
+
+.fa-solid {
+    margin-left: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
